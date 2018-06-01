@@ -1,9 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="12.0" DefaultTargets="Build" Sdk="Microsoft.NET.Sdk">
+<Project ToolsVersion="12.0" Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{625F1463-6F82-4F56-9B1E-C8F5D366C0B9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Beta_3734</RootNamespace>
@@ -39,8 +38,6 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\Common\Common.csproj">
-      <Project>{63268176-7FF9-4B3E-AAAD-CC7C329F924A}</Project>
-      <Name>Common</Name>
       <Private>False</Private>
     </ProjectReference>
   </ItemGroup>
